@@ -6,3 +6,4 @@ design/DESIGN_SYSTEM.mdnode_modules/
 dist/
 build/
 *.log
+node_modules/
