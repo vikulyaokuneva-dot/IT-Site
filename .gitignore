@@ -1,4 +1,7 @@
-node_modules/
+# Design documentation
+design/DESIGN_CONCEPTS.md
+design/DESIGN_DECISIONS.md
+design/DESIGN_SYSTEM.mdnode_modules/
 .next/
 dist/
 build/
