@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Внедрение ИИ-агентов в отделы продаж. Аудит, обучение, интеграция с CRM.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://i-pro.tech/">
+    
+    <!-- TITLE -->
+    <title>i-pro.tech — ИИ-агенты для отделов продаж</title>
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="i-pro.tech — ИИ-агенты для отделов продаж">
+    <meta property="og:description" content="Внедрение ИИ-агентов в отделы продаж. Аудит, обучение, интеграция с CRM.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://i-pro.tech/">
+    <meta property="og:image" content="https://i-pro.tech/assets/og-image.jpg">
+    
+    <!-- YANDEX METRICA -->
+    <!-- <script>
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for(var j=0;j<navigator.mimeTypes.length;j++){if(navigator.mimeTypes[j].enabledPlugin){k=navigator.mimeTypes[j].enabledPlugin;if(k===window.external||k===navigator.plugins[k].filename)return 0}}
+    k=e.createElement(t);k.async=!0;k.src=r;a=e.getElementsByTagName(t)[0];a.parentNode.insertBefore(k,a)
+    })(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
+    ym(YM_COUNTER_ID,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/YM_COUNTER_ID" style="position:absolute;left:-9999px;" alt="" /></div></noscript> -->
+    <!-- END YANDEX METRICA -->
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="/" class="header-brand">i-pro.tech</a>
+                <button class="header-nav-toggle" aria-label="Открыть меню" aria-expanded="false">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <line x1="3" y1="12" x2="21" y2="12"/>
+                        <line x1="3" y1="18" x2="21" y2="18"/>
+                    </svg>
+                </button>
+                <nav class="header-nav">
+                    <a href="#process">Как работаем</a>
+                    <a href="#documents">Документы</a>
+                    <a href="#contact">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <!-- COMPANY -->
+                    <p class="hero-eyebrow">AI-АГЕНТЫ ДЛЯ ОТДЕЛОВ ПРОДАЖ</p>
+                    
+                    <!-- HERO -->
+                    <h1 class="hero-title">Внедряем ИИ-агентов<br>в ваши процессы продаж</h1>
+                    
+                    <p class="hero-subtitle">
+                        Проводим аудит, обучаем агента на ваших данных, интегрируем с CRM. 
+                        Результат — работающий ИИ внутри вашей инфраструктуры.
+                    </p>
+                    
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Обсудить задачу</a>
+                        <a href="#documents" class="btn btn-secondary">Смотреть презентацию</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <!-- Architectural diagram: structured workflow visualization -->
+                    <svg class="diagram-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <!-- Grid background -->
+                        <defs>
+                            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#E5E5E5" stroke-width="1"/>
+                            </pattern>
+                        </defs>
+                        <rect width="400" height="400" fill="url(#grid)"/>
+                        
+                        <!-- Process flow diagram -->
+                        <!-- Audit node -->
+                        <circle cx="80" cy="120" r="8" fill="#0066CC"/>
+                        <line x1="80" y1="120" x2="200" y2="120" stroke="#1A1A1A" stroke-width="2"/>
+                        <rect x="200" y="100" width="120" height="40" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+                        <text x="260" y="125" font-family="Inter" font-size="12" fill="#1A1A1A" text-anchor="middle">АУДИТ</text>
+                        
+                        <!-- Training node -->
+                        <line x1="260" y1="140" x2="260" y2="200" stroke="#1A1A1A" stroke-width="2"/>
+                        <circle cx="260" cy="200" r="8" fill="#0066CC"/>
+                        <line x1="260" y1="200" x2="320" y2="200" stroke="#1A1A1A" stroke-width="2"/>
+                        <rect x="320" y="180" width="80" height="40" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+                        <text x="360" y="205" font-family="Inter" font-size="12" fill="#1A1A1A" text-anchor="middle">ОБУЧЕНИЕ</text>
+                        
+                        <!-- Integration node -->
+                        <line x1="260" y1="240" x2="260" y2="300" stroke="#1A1A1A" stroke-width="2"/>
+                        <circle cx="260" cy="300" r="8" fill="#0066CC"/>
+                        <line x1="260" y1="300" x2="140" y2="300" stroke="#1A1A1A" stroke-width="2"/>
+                        <rect x="40" y="280" width="100" height="40" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+                        <text x="90" y="305" font-family="Inter" font-size="12" fill="#1A1A1A" text-anchor="middle">ИНТЕГРАЦИЯ</text>
+                        
+                        <!-- Connection lines to edges -->
+                        <line x1="80" y1="300" x2="80" y2="340" stroke="#737373" stroke-width="1.5" stroke-dasharray="4,4"/>
+                        <line x1="260" y1="340" x2="260" y2="380" stroke="#737373" stroke-width="1.5" stroke-dasharray="4,4"/>
+                        <line x1="360" y1="220" x2="360" y2="260" stroke="#737373" stroke-width="1.5" stroke-dasharray="4,4"/>
+                        
+                        <!-- Data points -->
+                        <circle cx="80" cy="340" r="4" fill="#737373"/>
+                        <circle cx="260" cy="380" r="4" fill="#737373"/>
+                        <circle cx="360" cy="260" r="4" fill="#737373"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <!-- PROCESS -->
+            <h2 class="section-title">КАК МЫ ВНЕДРЯЕМ ИИ-АГЕНТА</h2>
+            
+            <div class="process-grid">
+                <!-- Stage 01 -->
+                <div class="process-card">
+                    <p class="process-number">01</p>
+                    <h3 class="process-title">АУДИТ</h3>
+                    <p class="process-subtitle">Анализируем текущий процесс продаж</p>
+                    
+                    <ul class="process-list">
+                        <li>изучаем процессы отдела продаж</li>
+                        <li>анализируем CRM</li>
+                        <li>выявляем повторяющиеся операции</li>
+                        <li>определяем точки автоматизации</li>
+                    </ul>
+                    
+                    <div class="process-result">
+                        <p class="process-result-label">Результат</p>
+                        <p class="process-result-text">Карта процессов и список задач для автоматизации</p>
+                    </div>
+                </div>
+                
+                <!-- Stage 02 -->
+                <div class="process-card">
+                    <p class="process-number">02</p>
+                    <h3 class="process-title">ОБУЧЕНИЕ</h3>
+                    <p class="process-subtitle">Обучаем агента на данных компании</p>
+                    
+                    <ul class="process-list">
+                        <li>используем внутренние материалы</li>
+                        <li>учитываем специфику продукта</li>
+                        <li>формируем правила работы</li>
+                        <li>тестируем сценарии</li>
+                    </ul>
+                    
+                    <div class="process-result">
+                        <p class="process-result-label">Результат</p>
+                        <p class="process-result-text">AI-агент, понимающий бизнес-контекст компании</p>
+                    </div>
+                </div>
+                
+                <!-- Stage 03 -->
+                <div class="process-card">
+                    <p class="process-number">03</p>
+                    <h3 class="process-title">ИНТЕГРАЦИЯ</h3>
+                    <p class="process-subtitle">Подключаем агента к рабочим системам</p>
+                    
+                    <ul class="process-list">
+                        <li>CRM</li>
+                        <li>внутренние системы</li>
+                        <li>коммуникационные каналы</li>
+                        <li>бизнес-процессы</li>
+                    </ul>
+                    
+                    <div class="process-result">
+                        <p class="process-result-label">Результат</p>
+                        <p class="process-result-text">Работающий AI-агент внутри существующей инфраструктуры</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOCUMENTS -->
+    <section class="documents-section" id="documents">
+        <div class="container">
+            <!-- DOCUMENTS -->
+            <h2 class="section-title">ДОКУМЕНТЫ</h2>
+            
+            <div class="documents-grid">
+                <a href="/assets/presentation.pdf" class="document-link" target="_blank" rel="noopener">
+                    <svg class="document-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                    <span class="document-text">Смотреть презентацию</span>
+                </a>
+                
+                <a href="/assets/report-example.pdf" class="document-link" target="_blank" rel="noopener">
+                    <svg class="document-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                    <span class="document-text">Пример отчёта</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-form-container">
+                <!-- CONTACT FORM -->
+                <h2 class="section-title">ОБСУДИТЬ ЗАДАЧУ</h2>
+                
+                <form class="form" id="contactForm" action="/send.php" method="POST" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="input-label required">Имя</label>
+                        <input type="text" id="name" name="name" class="input" required autocomplete="name">
+                        <span class="form-error">Пожалуйста, введите имя</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company" class="input-label required">Компания</label>
+                        <input type="text" id="company" name="company" class="input" required autocomplete="organization">
+                        <span class="form-error">Пожалуйста, введите название компании</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" class="input-label required">Телефон</label>
+                        <input type="tel" id="phone" name="phone" class="input" required autocomplete="tel" placeholder="+7 (___) ___-__-__">
+                        <span class="form-error">Пожалуйста, введите корректный номер телефона</span>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="consent" name="consent" class="checkbox" required>
+                            <label for="consent" class="checkbox-label">
+                                Я согласен на обработку персональных данных. 
+                                <a href="/privacy.html" target="_blank">Политика конфиденциальности</a>
+                            </label>
+                        </div>
+                        <span class="form-error">Необходимо согласие на обработку персональных данных</span>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-large">Отправить заявку</button>
+                    </div>
+                    
+                    <div class="form-status" id="formStatus" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="contacts-section" id="contacts">
+        <div class="container">
+            <!-- CONTACTS -->
+            <h2 class="section-title">КОНТАКТЫ</h2>
+            
+            <div class="contacts-grid">
+                <div class="contact-item">
+                    <span class="contact-label">Телефон:</span>
+                    <a href="tel:+7XXXXXXXXXX" class="contact-value">+7 XXX XXX-XX-XX</a>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-label">Telegram:</span>
+                    <a href="https://t.me/telegram" class="contact-value">@telegram</a>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-label">Email:</span>
+                    <a href="mailto:hello@i-pro.tech" class="contact-value">hello@i-pro.tech</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <!-- FOOTER -->
+            <div class="footer-grid">
+                <div class="footer-contacts">
+                    <p class="footer-contact-item">
+                        <a href="tel:+7XXXXXXXXXX">+7 XXX XXX-XX-XX</a>
+                    </p>
+                    <p class="footer-contact-item">
+                        <a href="mailto:hello@i-pro.tech">hello@i-pro.tech</a>
+                    </p>
+                </div>
+                
+                <div class="footer-legal">
+                    <p class="footer-legal-text">
+                        © <span id="currentYear">2024</span> i-pro.tech. Все права защищены.
+                    </p>
+                    <div class="footer-legal-links">
+                        <a href="/privacy.html">Политика конфиденциальности</a>
+                        <a href="/privacy.html">Согласие на обработку персональных данных</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="/js/main.js"></script>
+</body>
+</html>

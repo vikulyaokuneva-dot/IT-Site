@@ -1,9 +1,45 @@
-# Design documentation
-design/DESIGN_CONCEPTS.md
-design/DESIGN_DECISIONS.md
-design/DESIGN_SYSTEM.mdnode_modules/
-.next/
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
 dist/
 build/
+*.min.js
+*.min.css
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
 *.log
-node_modules/
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+.mypy_cache/
+```.next/
